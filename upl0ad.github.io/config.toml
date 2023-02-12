@@ -1,3 +1,20 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'paper'
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'upl0ad'               # twitter.com/YOUR_TWITTER_ID
+  github = 'upl0ad'                 # github.com/YOUR_GITHUB_ID
+  instagram = '__upl0ad'           # instagram.com/YOUR_INSTAGRAM_ID
+  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+  rss = true                                # show rss icon
+
+  # home page profile
+  avatar = 'https://avatars.githubusercontent.com/u/124816656?v=4'                 # gravatar email or image url
+  name = 'Torres'
+  bio = 'This is my personal website/blog.'
